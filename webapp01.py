@@ -33,6 +33,14 @@ if choice == "PBR":
     cols01[0].write('QUANTIDADE DE PALLETS POR CARGA')
     cols01[1].write('QUANTIDADE DE PALLETS POR MÊS')
     cols02[2].write('PERSONALIZAÇÃO ESPECIAL: SUPERIOR FECHADO, TOCO COM TAMANHO ESPECIAL, etc')
+
+elif choice == "PALLET_PERSONALIZADO":
+    st.image(image01, width=800, caption='Rótulo da Imagem 01') 
+elif choice == "MENU_PRINCIPAL":
+    resp1 = st.text_input('insira seu email')
+    st.write(resp1)
+    resp2 = st.text_input('insira seu número de telefone')
+    st.write(resp2)
 elif choice == "PALLET_DE_VIGA":
     st.subheader("ORÇAMENTO PARA PALLET DE VIGAS")
     st.write("Veja a seguir opção de formatação de texto Markdown")
@@ -67,11 +75,4 @@ elif choice == "PALLET_DE_VIGA":
     Projetado para fornecer aos usuários um espaço sobre algumas Linguagens de Programação. O objetivo não é substituir o conteúdo institucional disponível para aulas, mas servir de suporte complementar ao aprendizado compartilhado. Espero que você faça bom uso!
     """
     )
-elif choice == "PALLET_PERSONALIZADO":
-    st.image(image01, width=800, caption='Rótulo da Imagem 01') 
-elif choice == "MENU_PRINCIPAL":
-    resp1 = st.text_input('insira seu email')
-    st.write(resp1)
-    resp2 = st.text_input('insira seu número de telefone')
-    st.write(resp2)
     
