@@ -19,19 +19,20 @@ st.write("Como já deve ter percebido, o método st.write() é usado para escrit
 st.subheader("------ **Desenvolvido por: Massaki de O. Igarashi** -----")
 
 menu = ["PBR",
-        "PALLET DE VIGA",
-        "PALLET PERSONALIZADO"]
+        "PALLET_DE_VIGA",
+        "PALLET_PERSONALIZADO"]
 choice = st.sidebar.selectbox("Menu de Opções",menu)
 st.sidebar.write("Texto Side Bar")
     
-if choice == "Texto_Colunas":       
-    st.subheader("Texto formatado em colunas")
-    st.write("Veja a seguir uma opção de formatação em colunas")    
-    cols01 = st.columns(2)    
-    cols01[0].write('Texto da Coluna 01')
-    cols01[1].write('Texto da Coluna 02')
-elif choice == "Texto_Markdown":
-    st.subheader("Texto Markdown")
+if choice == "PBR":       
+    st.subheader("PADRÃO BRASILEIRO DE PALLET")
+    st.write("SIGA O LINK PARA INFORMAÇÕES DE VALORES")    
+    cols01 = st.columns(3)    
+    cols01[0].write('QUANTIDADE DE PALLETS POR CARGA')
+    cols01[1].write('QUANTIDADE DE PALLETS POR MÊS')
+    cols02[2].write('PERSONALIZAÇÃO ESPECIAL (SUPERIOR FECHADO, TOCO COM TAMANHO ESPECIAL)')
+elif choice == "PALLET_DE_VIGA":
+    st.subheader("ORÇAMENTO PARA PALLET DE VIGAS")
     st.write("Veja a seguir opção de formatação de texto Markdown")
     st.markdown(
     """
@@ -41,12 +42,12 @@ elif choice == "Texto_Markdown":
     - [Layouts and Containers](https://docs.streamlit.io/library/api-reference/layout)
    
     ##### CRONOGRAMA
-    DIA | CH HORÁRIA | CONTEÚDO
+    ALTURA | COMPRIMENTO | LARGURA
     :---------: | :------: | :-------:
     Dia 1 de 2 | ?h | ? a ?
     Dia 2 de 2 | ?h | ? a ?
     """
     )
-elif choice == "Inserir_Figura":
+elif choice == "PALLET_PERSONALIZADO":
     st.image(image01, width=800, caption='Rótulo da Imagem 01') 
     
