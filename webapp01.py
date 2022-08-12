@@ -5,17 +5,18 @@ from PIL import Image
 
 image01 = Image.open('57368940_393784414789934_3557869638635225088_n.jpg')
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
-st.title("MEU 1º WEB APP STREAMLIT")
+st.title("ROVI MADEIRAS LTDA - ME")
 
 # Use st.header("") para adicionar um CABEÇALHO ao seu Web app
-st.header("Cabeçalho")
+st.header("CONFIANÇA, QUALIDADE E PREÇO")
 
 # Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
-st.subheader("Sub Cabeçalho")
-
+st.subheader("CNPJ: 098.098.098/0001-03")
+st.subheader("RUA SERVIDÃO 6, 100")
+st.subheader("CHÁCARAS HAVAÍ, HORTOLÂNDIA - SP")
 # Use st.write("") para adicionar um texto ao seu Web app
-st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
-
+st.write("NESSA PÁGINA VOCÊ PODERÁ INICIAR UM ORÇAMENTO COM NOSSA EMPRESA, PARA MAIS INFORMAÇÕES, ACESSE O LINK PARA O NOSSO WHATSAPP")
+st.write("HORÁRIO DE FUNCIONAMENTO: DE SEGUNDA À SEXTA DAS 7:30 ÀS 17:00")
 st.subheader("------ **Desenvolvido por: Massaki de O. Igarashi** -----")
 
 menu = ["PBR",
