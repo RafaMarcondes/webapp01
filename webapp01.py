@@ -30,7 +30,7 @@ if choice == "PBR":
     cols01 = st.columns(3)    
     cols01[0].write('QUANTIDADE DE PALLETS POR CARGA')
     cols01[1].write('QUANTIDADE DE PALLETS POR MÊS')
-    cols02[2].write('PERSONALIZAÇÃO ESPECIAL (SUPERIOR FECHADO, TOCO COM TAMANHO ESPECIAL)')
+    cols02[2].write('PERSONALIZAÇÃO ESPECIAL: SUPERIOR FECHADO, TOCO COM TAMANHO ESPECIAL, etc')
 elif choice == "PALLET_DE_VIGA":
     st.subheader("ORÇAMENTO PARA PALLET DE VIGAS")
     st.write("Veja a seguir opção de formatação de texto Markdown")
