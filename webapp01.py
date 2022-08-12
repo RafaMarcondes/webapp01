@@ -51,16 +51,16 @@ elif choice == "PALLET_DE_VIGA":
     """
     )
     # Generate tree equal columns
-#col1, col2, col3 = st.columns((1, 1, 1))
-col1, col2 = st.columns((1,1))
-with col1:
+    #col1, col2, col3 = st.columns((1, 1, 1))
+    col1, col2 = st.columns((1,1))
+    with col1:
     st.info(
        """
     ### ***Atenção, principiante!***
     Para você que é leigo e está começando agora a programar, este material introdutório, uma espécie de **guia rápido**, está estruturado **com um passo-a-passo a ser seguido** com se fosse uma "receita de bolo". Então, por favor, siga um passo de cada vez e tome cuidado para o bolo não desandar!
     """    
     )
-with col2:
+    with col2:
     st.info(
     """
     ### ***Aprendizado colaborativo***
