@@ -48,6 +48,8 @@ elif choice == "PALLET_DE_VIGA":
     Dia 2 de 2 | ?h | ? a ?
     """
     )
+    resp = st.text_input('texto')
+    st.write(resp)
 elif choice == "PALLET_PERSONALIZADO":
     st.image(image01, width=800, caption='Rótulo da Imagem 01') 
     
