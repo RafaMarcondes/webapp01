@@ -67,7 +67,6 @@ elif choice == "PALLET_DE_VIGA":
     Projetado para fornecer aos usuários um espaço sobre algumas Linguagens de Programação. O objetivo não é substituir o conteúdo institucional disponível para aulas, mas servir de suporte complementar ao aprendizado compartilhado. Espero que você faça bom uso!
     """
     )
-
 elif choice == "PALLET_PERSONALIZADO":
     st.image(image01, width=800, caption='Rótulo da Imagem 01') 
 elif choice == "MENU_PRINCIPAL":
