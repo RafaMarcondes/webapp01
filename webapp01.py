@@ -22,7 +22,7 @@ st.subheader("------ **Desenvolvido por: Massaki de O. Igarashi** -----")
 menu = ["PBR",
         "PALLET_DE_VIGA",
         "PALLET_PERSONALIZADO",
-        "MENU"]
+        "MENU_PRINCIPAL"]
 choice = st.sidebar.selectbox("Menu de Opções",menu)
 st.sidebar.write("Texto Side Bar")
     
@@ -70,7 +70,7 @@ with col2:
 
 elif choice == "PALLET_PERSONALIZADO":
     st.image(image01, width=800, caption='Rótulo da Imagem 01') 
-elif choice == "MENU"
+elif choice == "MENU_PRINCIPAL"
  resp1 = st.text_input('insira seu email')
     st.write(resp1)
     resp2 = st.text_input('insira seu número de telefone')
