@@ -3,7 +3,7 @@
 import streamlit as st
 from PIL import Image
 
-image01 = Image.open('https://github.com/RafaMarcondes/webapp01/blob/main/57368940_393784414789934_3557869638635225088_n.jpg')
+image01 = Image.open('57368940_393784414789934_3557869638635225088_n.jpg')
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("MEU 1º WEB APP STREAMLIT")
 
