@@ -18,9 +18,9 @@ st.write("Como já deve ter percebido, o método st.write() é usado para escrit
 
 st.subheader("------ **Desenvolvido por: Massaki de O. Igarashi** -----")
 
-menu = ["Texto_Colunas",
-        "Texto_Markdown",
-        "Inserir_Figura"]
+menu = ["PBR",
+        "PALLET DE VIGA",
+        "PALLET PERSONALIZADO"]
 choice = st.sidebar.selectbox("Menu de Opções",menu)
 st.sidebar.write("Texto Side Bar")
     
